@@ -4,7 +4,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 var passport = require('passport');
 const Mongoose = require('mongoose');
-Mongoose.connect('mongodb://mongodb:27017/test',{useNewUrlParser : true});
+Mongoose.connect('mongodb://mongodb1:27017/test1',{useNewUrlParser : true});
 var db = Mongoose.connection;
 db.on('error',console.error.bind(console,'Connection Error'));
 db.once('open',function(){

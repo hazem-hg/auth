@@ -16,6 +16,6 @@ services:
     ports:
       - '27018:27018'
     volumes:
-      - data:/data/db
+      - data1:/data1/db
 volumes:
-  data:
+  data1:
